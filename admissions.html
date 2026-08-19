@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admissions — Arise Academy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="/">Arise Academy</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/academics.html">Academics</a></li>
+          <li><a href="/admissions.html">Admissions</a></li>
+          <li><a href="/our-school.html">Our School</a></li>
+          <li><a href="/news.html">News & Events</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section data-aos="fade-up">
+      <h1>Admissions Are Open</h1>
+      <p>Follow our simple admission process to apply for a place at Arise Academy.</p>
+      <ol class="admission-steps">
+        <li>Submit Application</li>
+        <li>Attend Assessment</li>
+        <li>Parent/Guardian Interview</li>
+        <li>Receive Admission Offer</li>
+        <li>Complete Registration</li>
+      </ol>
+    </section>
+
+    <section class="application-form" data-aos="fade-up">
+      <h2>Online Application Form</h2>
+      <form id="application-form" action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST">
+        <div class="form-grid">
+          <label>Child's full name<input type="text" name="child_name" required></label>
+          <label>Date of birth<input type="date" name="dob" required></label>
+          <label>Gender<select name="gender"><option>Male</option><option>Female</option><option>Other</option></select></label>
+          <label>Class applying for<input type="text" name="class_applied" required></label>
+          <label>Parent/Guardian name<input type="text" name="parent_name" required></label>
+          <label>Phone number<input type="tel" name="phone" required></label>
+          <label>Email<input type="email" name="email" required></label>
+          <label>Address<input type="text" name="address"></label>
+          <label>Previous school<input type="text" name="previous_school"></label>
+          <label>Additional information<textarea name="additional" rows="4"></textarea></label>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit Application</button>
+      </form>
+
+      <aside class="requirements">
+        <h3>Admission Requirements</h3>
+        <ul>
+          <li>Birth certificate</li>
+          <li>Recent passport photographs</li>
+          <li>Previous school records (if applicable)</li>
+          <li>Proof of residence</li>
+        </ul>
+      </aside>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 Arise Academy.</div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
