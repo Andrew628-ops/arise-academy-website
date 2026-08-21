@@ -1,4 +1,4 @@
-# Arise Academy — Website Prototype
+# Arise Academy 
 
 This repository contains a responsive, modern primary school website prototype for "Arise Academy" built with HTML, CSS, and JavaScript.
 
